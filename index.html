@@ -1,26 +1,148 @@
-<!-- Company Contact Details -->
-<div class="contact-details">
-  <h3>Our Contact Information</h3>
-  <div class="contact-info-grid horizontal">
-    <div class="contact-info-card">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-        <polyline points="22,6 12,13 2,6"></polyline>
-      </svg>
-      <p><strong>Email:</strong> info@cogniteck.com</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cogniteck IT Solutions</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Cogniteck IT Solutions</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class="contact-info-card">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-      </svg>
-      <p><strong>Phone:</strong> +27 (063) 901-9893</p>
+  </header>
+
+  <!-- Hero Section with Background Image -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Empowering Your Business with IT Excellence</h2>
+        <p>We provide cutting-edge IT solutions to help your business thrive.</p>
+        <a href="#services" class="btn">Explore Services</a>
+      </div>
     </div>
-    <div class="contact-info-card">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-        <circle cx="12" cy="10" r="3"></circle>
-      </svg>
-      <p><strong>Address:</strong> Goodwood, Cape Town, South Africa</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Network Management</h3>
+          <p>Comprehensive network solutions, from setup to ongoing maintenance and security monitoring.</p>
+        </div>
+        <div class="service-card">
+          <h3>Cybersecurity</h3>
+          <p>Protect your business from cyber threats with our advanced security solutions.</p>
+        </div>
+        <div class="service-card">
+          <h3>Hardware Support</h3>
+          <p>Reliable hardware maintenance and support services.</p>
+        </div>
+        <div class="service-card">
+          <h3>Cloud Services</h3>
+          <p>Scalable and secure cloud solutions for your business.</p>
+        </div>
+        <div class="service-card">
+          <h3>Preventative Maintenance</h3>
+          <p>Proactive monitoring and maintenance to minimize downtime and optimize performance.</p>
+        </div>
+        <div class="service-card">
+          <h3>Infrastructure</h3>
+          <p>Robust IT infrastructure solutions for seamless operations.</p>
+        </div>
+        <div class="service-card">
+          <h3>CCTV</h3>
+          <p>Advanced surveillance systems for enhanced security.</p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section id="why-us">
+    <div class="container">
+      <h2>Why Choose Us?</h2>
+      <div class="why-us-grid">
+        <div class="why-us-card">
+          <h3>Expert Team</h3>
+          <p>Our team of IT professionals has years of experience in delivering top-notch solutions.</p>
+        </div>
+        <div class="why-us-card">
+          <h3>24/7 Support</h3>
+          <p>We offer round-the-clock support to ensure your business never faces downtime.</p>
+        </div>
+        <div class="why-us-card">
+          <h3>Custom Solutions</h3>
+          <p>We tailor our services to meet the unique needs of your business.</p>
+        </div>
+        <div class="why-us-card">
+          <h3>Proactive Approach</h3>
+          <p>We anticipate issues before they arise, ensuring smooth operations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section with Background Image -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Reach out to us for all your IT needs.</p>
+      
+      <!-- Contact Form -->
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <!-- Company Contact Details -->
+      <div class="contact-details">
+        <h3>Our Contact Information</h3>
+        <div class="contact-info-grid">
+          <div class="contact-info-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <p><strong>Email:</strong> info@cogniteck.com</p>
+          </div>
+          <div class="contact-info-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <p><strong>Phone:</strong> +27 (063) 901-9893</p>
+          </div>
+          <div class="contact-info-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <p><strong>Address:</strong> Goodwood, Cape Town, South Africa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Cogniteck IT Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

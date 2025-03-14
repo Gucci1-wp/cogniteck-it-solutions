@@ -1,49 +1,21 @@
-/* Contact Details Section */
-.contact-details {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.contact-details h3 {
-  font-size: 1.5rem;
-  color: #00ced1;
-  margin-bottom: 20px;
-}
-
-.contact-info-grid.horizontal {
+/* Hero Section with Background Image */
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.contact-info-card {
-  background-color: #1a1a1a;
-  padding: 15px;
-  border-radius: 10px;
-  display: flex;
   align-items: center;
-  gap: 10px;
-  transition: transform 0.3s ease;
-  flex: 1;
-  max-width: 300px;
-}
-
-.contact-info-card:hover {
-  transform: translateY(-5px);
-}
-
-.contact-info-card svg {
-  flex-shrink: 0;
-  color: #00ced1;
-}
-
-.contact-info-card p {
-  margin: 0;
-  font-size: 0.9rem;
+  text-align: center;
   color: #ffffff;
 }
 
-.contact-info-card strong {
-  color: #00ced1;
+/* Contact Section with Background Image */
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/contact-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  color: #ffffff;
 }
